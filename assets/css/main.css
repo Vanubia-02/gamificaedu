@@ -1198,7 +1198,7 @@ section {
 }
 
 .clients .swiper-slide img {
-  opacity: 0.5;
+  opacity: 0.22;
   transition: 0.3s;
   filter: grayscale(100);
 }
@@ -1309,12 +1309,12 @@ section {
 
 .onfocus .video-play {
   min-height: 400px;
-  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/onfocus-video-bg.jpg") center center;
+  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/gamifica_uneb.jpg") center center;
   background-size: cover;
 }
 
 .onfocus .content {
-  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.jpg") center center;
+  background: linear-gradient(rgba(var(--color-secondary-rgb), 6.5), rgba(var(--color-secondary-rgb), 0.0)), url("../img/fundo_video.jpeg") center center;
   background-size: cover;
   color: rgba(var(--color-white-rgb), 0.8);
   padding: 40px;
@@ -1635,7 +1635,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/fundo_mensagens.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1645,7 +1645,7 @@ section {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(var(--color-secondary-dark-rgb), 0.8);
+  background: rgba(var(--color-secondary-dark-rgb), 0.4);
 }
 
 .testimonials .section-header {
@@ -2104,7 +2104,7 @@ section {
 }
 
 .team .team-member .member-info {
-  padding: 30px 15px;
+  padding: 15px 15px;
   text-align: center;
   box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.1);
   background: var(--color-white);
@@ -2217,7 +2217,7 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact .map {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .contact .map iframe {
@@ -2280,18 +2280,6 @@ section {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
-  display: none;
-  color: var(--color-white);
-  background: var(--color-red);
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
 
 .contact .php-email-form .sent-message {
   display: none;
@@ -3023,7 +3011,7 @@ section {
 }
 
 .footer .footer-content .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .footer .footer-content .footer-info h3 {
