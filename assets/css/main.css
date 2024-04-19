@@ -2284,7 +2284,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: var(--color-white);
-  background: var(--color-green);
+  background: #34B3A9;
   text-align: center;
   padding: 15px;
   font-weight: 600;
